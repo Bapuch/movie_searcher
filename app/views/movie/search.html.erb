@@ -1,0 +1,34 @@
+<div class='container bg-warning p-2 border rounded d-flex justify-content-between'>
+  <div>
+      <h3 class='font-weight-bold'><img src="https://cdn.onlinewebfonts.com/svg/img_494668.png" width="20"   height="30" class="d-inline-block align-top" alt=""> Movie Searcher</h3>
+  </div>
+  <div>
+    <%= form_for :search do |f| %>
+      <%= f.text_field :query, class: 'rounded' %>
+      <%= f.submit 'Search', class: 'btn btn-outline-dark' %>
+    <% end %>
+  </div>
+</div class=>
+<div class='container mt-4'>
+  <% if @movies.count == 0 %>
+    <h2 class="text-capitalize font-weight-bold text-dark">No result found</h2>
+    <img src="https://salespop.net/wp-content/themes/pipeliner-ezine/assets/images/owl-light.svg"   height="500" class='col-12' alt="">
+  <% else %>
+    <div class="card-columns">
+      <% @movies.each do |movie| %>
+        <div class="card card p-3 text-center shadow" style="width: 18rem;">
+          <img class="card-img-top rounded-top" src="http://image.tmdb.org/t/p/w200/<%= movie.poster_path %>"    alt="<%= movie.title %> poster" height="300">
+          <div class="card-body">
+            <h5 class="card-title"><%= movie.title %></h5>
+            <p class="card-text">Directed by: <%= movie.director %></p>
+          </div>
+          <footer class="blockquote-footer text-dark">
+            <small>
+              Released on <%= movie.release_date.strftime("%e %b %Y") %>
+            </small>
+          </footer>
+        </div>
+      <% end %>
+    </div>
+    <% end %>
+</div>
