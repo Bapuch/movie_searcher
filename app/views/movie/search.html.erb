@@ -1,10 +1,10 @@
-<div class='container bg-warning p-2 border rounded d-flex justify-content-between'>
+<div class='container py-2 px-4 bg-warning border border-dark rounded-bottom d-flex justify-content-between'>
   <div>
       <h3 class='font-weight-bold'><img src="https://cdn.onlinewebfonts.com/svg/img_494668.png" width="20"   height="30" class="d-inline-block align-top" alt=""> Movie Searcher</h3>
   </div>
   <div>
     <%= form_for :search do |f| %>
-      <%= f.text_field :query, class: 'rounded' %>
+      <%= f.text_field :query, class: 'rounded',placeholder: "20 first results for ?"  %>
       <%= f.submit 'Search', class: 'btn btn-outline-dark' %>
     <% end %>
   </div>
