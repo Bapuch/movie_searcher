@@ -1,24 +1,28 @@
-# README
+## Exercice du Jeudi 08 Novembre - Movie Searcher API
+![Image of Popcorn Movie](https://banner2.kisspng.com/20180420/vzq/kisspng-popcorn-cinema-film-reel-clip-art-5ad9be6a7efce5.7312440715242194985202.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Greetings
+--------------------------------------------------
+Dear machin,
 
-Things you may want to cover:
+Attaché à ce repo se trouve l'app <strong>[Search A Movie](https://search-a-movie.herokuapp.com/)</strong>
 
-* Ruby version
 
-* System dependencies
+### Travail réalisé par
+--------------------------------------------------
+Noms | Pseudo Slack
+------------ | -------------
+Maëlle Ngachili|@Maëlle
+Cedric Soares|@iCedric
+Raphael Caillaux|@Raphael
+Marcel AL Nguyen|@MarcelALng
+Axel Ringard|@Axel
+Jonathan |@JonathanMete
 
-* Configuration
 
-* Database creation
+### Description
 
-* Database initialization
+Cette app permet de récupérer les 20 premiers résultats de recherche pour un titre de film grâce à l'API de TMDb et sa gem.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Bonne correction ! :poop:
+--------------------------------------------------
