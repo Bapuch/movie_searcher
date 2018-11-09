@@ -18,7 +18,8 @@ Cedric Soares|@iCedric
 Raphael Caillaux|@Raphael
 Marcel AL Nguyen|@MarcelALng
 Axel Ringard|@Axel
-Jonathan |@JonathanMete
+Jonathan Mete |@JonathanMete
+Maixent Dasilveira |@Maixent Dasilveira
 
 
 ### Description
