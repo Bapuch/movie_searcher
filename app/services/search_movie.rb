@@ -10,7 +10,7 @@ class SearchMovie
   def initialize(search)
     Movie.destroy_all
     @search = search
-    @api_key = '61ee53a8c9992efda7bfd2479b778f39'
+    @api_key = ''
   end
 
   def get_result_nogem
